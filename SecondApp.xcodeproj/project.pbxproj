@@ -12,7 +12,6 @@
 		D4A1C5D8A6CDC5573E33A32D /* Pods_SecondApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E47B0C498311F244C062C2 /* Pods_SecondApp.framework */; };
 		E2528163247BBF5F000608E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2528162247BBF5F000608E2 /* AppDelegate.swift */; };
 		E2528165247BBF5F000608E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2528164247BBF5F000608E2 /* SceneDelegate.swift */; };
-		E2528167247BBF5F000608E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2528166247BBF5F000608E2 /* ViewController.swift */; };
 		E252816A247BBF5F000608E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2528168247BBF5F000608E2 /* Main.storyboard */; };
 		E252816C247BBF61000608E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E252816B247BBF61000608E2 /* Assets.xcassets */; };
 		E252816F247BBF61000608E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E252816D247BBF61000608E2 /* LaunchScreen.storyboard */; };
@@ -21,8 +20,7 @@
 		E2528193247BC01E000608E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2528192247BC01E000608E2 /* GoogleService-Info.plist */; };
 		E2528194247BC01E000608E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2528192247BC01E000608E2 /* GoogleService-Info.plist */; };
 		E2528195247BC01E000608E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2528192247BC01E000608E2 /* GoogleService-Info.plist */; };
-		E2528197247C1381000608E2 /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2528196247C1381000608E2 /* TableTableViewController.swift */; };
-		E252819D247C1910000608E2 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E252819C247C1910000608E2 /* CreateViewController.swift */; };
+		E2AB006B247E55060073F125 /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AB006A247E55060073F125 /* TableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +52,6 @@
 		E252815F247BBF5F000608E2 /* SecondApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2528162247BBF5F000608E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2528164247BBF5F000608E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E2528166247BBF5F000608E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2528169247BBF5F000608E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E252816B247BBF61000608E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E252816E247BBF61000608E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,8 +63,7 @@
 		E2528184247BBF61000608E2 /* SecondAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAppUITests.swift; sourceTree = "<group>"; };
 		E2528186247BBF61000608E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2528192247BC01E000608E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		E2528196247C1381000608E2 /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
-		E252819C247C1910000608E2 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		E2AB006A247E55060073F125 /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
 		E7E47B0C498311F244C062C2 /* Pods_SecondApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecondApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -149,14 +145,12 @@
 			children = (
 				E2528162247BBF5F000608E2 /* AppDelegate.swift */,
 				E2528164247BBF5F000608E2 /* SceneDelegate.swift */,
-				E2528166247BBF5F000608E2 /* ViewController.swift */,
 				E2528168247BBF5F000608E2 /* Main.storyboard */,
 				E252816B247BBF61000608E2 /* Assets.xcassets */,
 				E252816D247BBF61000608E2 /* LaunchScreen.storyboard */,
 				E2528170247BBF61000608E2 /* Info.plist */,
 				E2528192247BC01E000608E2 /* GoogleService-Info.plist */,
-				E2528196247C1381000608E2 /* TableTableViewController.swift */,
-				E252819C247C1910000608E2 /* CreateViewController.swift */,
+				E2AB006A247E55060073F125 /* TableTableViewController.swift */,
 			);
 			path = SecondApp;
 			sourceTree = "<group>";
@@ -421,10 +415,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E252819D247C1910000608E2 /* CreateViewController.swift in Sources */,
-				E2528197247C1381000608E2 /* TableTableViewController.swift in Sources */,
-				E2528167247BBF5F000608E2 /* ViewController.swift in Sources */,
 				E2528163247BBF5F000608E2 /* AppDelegate.swift in Sources */,
+				E2AB006B247E55060073F125 /* TableTableViewController.swift in Sources */,
 				E2528165247BBF5F000608E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
