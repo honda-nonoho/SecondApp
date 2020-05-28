@@ -123,7 +123,6 @@
 			children = (
 				E2528161247BBF5F000608E2 /* SecondApp */,
 				E2528178247BBF61000608E2 /* SecondAppTests */,
-				E2528183247BBF61000608E2 /* SecondAppUITests */,
 				E2528160247BBF5F000608E2 /* Products */,
 				D186004B013DE953C15EAD37 /* Pods */,
 				E043F6FDBC1B88849C0E36F3 /* Frameworks */,
@@ -151,6 +150,7 @@
 				E2528170247BBF61000608E2 /* Info.plist */,
 				E2528192247BC01E000608E2 /* GoogleService-Info.plist */,
 				E2AB006A247E55060073F125 /* TableTableViewController.swift */,
+				E2528183247BBF61000608E2 /* SecondAppUITests */,
 			);
 			path = SecondApp;
 			sourceTree = "<group>";

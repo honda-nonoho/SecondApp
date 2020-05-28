@@ -13,17 +13,31 @@ import Firebase
 
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, UITableViewDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UITableViewDelegate, UITableViewDataSource {
     
-     var window: UIWindow?
-
-
-
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    if indexPath.row == 0 {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "firstIdentifier", for: indexPath)
+        return cell
+    } else if indexPath.row == 1 {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "secondIdentifier", for: indexPath)
+        return cell
+    } else if indexPath.row == 2 {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "thirdIdentifier", for: indexPath)
+        return cell
+    } else {
+        return UITableViewCell()
+    }
+}
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
          FirebaseApp.configure()
          
-         let db = Firestore.firestore()
        
 
 
@@ -44,7 +58,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UITableViewDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
-}
+    
+ }
 
